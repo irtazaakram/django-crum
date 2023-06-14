@@ -1,8 +1,8 @@
 # Django
 from django.conf import settings
+
 try:
-    from django.urls import path
-    from django.urls import include
+    from django.urls import include, path
 except ImportError:
     from django.conf.urls import url as path
 

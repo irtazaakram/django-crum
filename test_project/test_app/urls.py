@@ -5,8 +5,7 @@ except ImportError:
     from django.conf.urls import url as path
 
 # Test App
-from test_project.test_app.views import index, api_index
-
+from test_project.test_app.views import api_index, index
 
 app_name = 'test_app'
 

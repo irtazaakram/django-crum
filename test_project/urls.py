@@ -1,6 +1,5 @@
 # Django
 from django.conf import settings
-
 try:
     from django.urls import include, re_path
 except ImportError:
